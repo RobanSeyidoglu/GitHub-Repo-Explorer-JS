@@ -35,7 +35,7 @@ function getRepos() {
           let theUrl = document.createElement("a");
           let urlText = document.createTextNode("Visit");
           theUrl.appendChild(urlText);
-          theUrl.href = `https://api.github.com/users/${input.value}/${repo.name}`;
+          theUrl.href = `https://github.com/${input.value}/${repo.name}`;
           theUrl.setAttribute("target", "_blank");
           mainDiv.appendChild(theUrl);
 
